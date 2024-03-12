@@ -21,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedX = Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime;
-        speedY = Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime;
+        speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
+        speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
 
         rb.velocity = new Vector2(speedX, speedY);
 
