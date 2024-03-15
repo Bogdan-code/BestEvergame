@@ -132,8 +132,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 345570752}
+  - component: {fileID: 345570753}
   m_Layer: 0
-  m_Name: Aim
+  m_Name: RotatePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,13 +149,26 @@ Transform:
   m_GameObject: {fileID: 345570751}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1121497704}
   m_Father: {fileID: 900098240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &345570753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345570751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f52ecaab1894754190d31f50efb7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aimTransform: {fileID: 345570752}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +337,6 @@ GameObject:
   - component: {fileID: 900098237}
   - component: {fileID: 900098242}
   - component: {fileID: 900098241}
-  - component: {fileID: 900098243}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -507,18 +520,6 @@ MonoBehaviour:
   moveSpeed: 1
   rb: {fileID: 900098237}
   animator: {fileID: 900098241}
---- !u!114 &900098243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900098236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602e20b855d5b5f41bd46957a57f0b0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1121497703
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +531,7 @@ GameObject:
   - component: {fileID: 1121497704}
   - component: {fileID: 1121497705}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: BulletTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +546,7 @@ Transform:
   m_GameObject: {fileID: 1121497703}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.241, y: -0.064, z: 0}
+  m_LocalPosition: {x: 0.253, y: -0.162, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
