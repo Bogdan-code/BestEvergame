@@ -176,9 +176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
   bulletTransform: {fileID: 1121497704}
-  canFire: 0
-  timeBetweenFiring: 0
-  aimTransform: {fileID: 345570752}
+  isFiring: 1
+  firingDuration: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,9 +628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
   bulletTransform: {fileID: 1121497704}
-  canFire: 1
-  timeBetweenFiring: 0
-  aimTransform: {fileID: 0}
+  isFiring: 1
+  firingDuration: 5
 --- !u!1 &1822726742
 GameObject:
   m_ObjectHideFlags: 0
