@@ -168,6 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f52ecaab1894754190d31f50efb7c0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bulletTransform: {fileID: 0}
+  canFire: 0
+  timeBetweenFiring: 0
   aimTransform: {fileID: 345570752}
 --- !u!1 &519420028
 GameObject:
@@ -530,6 +534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121497704}
   - component: {fileID: 1121497705}
+  - component: {fileID: 1121497706}
   m_Layer: 0
   m_Name: BulletTransform
   m_TagString: Untagged
@@ -604,6 +609,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1121497706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121497703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f52ecaab1894754190d31f50efb7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bulletTransform: {fileID: 1121497704}
+  canFire: 1
+  timeBetweenFiring: 0
+  aimTransform: {fileID: 0}
 --- !u!1 &1822726742
 GameObject:
   m_ObjectHideFlags: 0
