@@ -25,11 +25,20 @@ public class Shooting : MonoBehaviour
     void Update()
     {
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        mousePos.z = 0;
-
         Vector3 rotation = mousePos - transform.position;
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+
+        Vector3 aimlocalScale = Vector3.one;
+        if (rotZ > 90 || rotZ < -90)
+        {
+            aimlocalScale.y = -1f;
+        }
+        else
+        {
+            aimlocalScale.y = +1f;
+        }
+        aimTransform.localScale = aimlocalScale;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -40,11 +49,6 @@ public class Shooting : MonoBehaviour
         {
             StopFiring(); 
         }
-        
-        Vector3 aimlocalScale = Vector3.one;
-        aimlocalScale.y = rotZ > 90 || rotZ < -90 ? -1f : 1f;
-        aimTransform.localScale = aimlocalScale;
-
     }
 
     void StartFiring()
