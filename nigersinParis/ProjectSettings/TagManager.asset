@@ -50,3 +50,6 @@ TagManager:
   - name: Husen
     uniqueID: 1231140737
     locked: 0
+  - name: Storedoor
+    uniqueID: 3747020197
+    locked: 0

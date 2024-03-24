@@ -3,8 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class StoreDoor : MonoBehaviour
 {
-    private void OnTriggerEnter()
+    void OnCollisionEnter(Collision collisionInfo)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (collisionInfo.collider.name == "Player")
+            {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
     }
 }
