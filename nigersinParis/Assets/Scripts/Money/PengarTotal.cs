@@ -10,7 +10,7 @@ public class PengarTotal : MonoBehaviour
 
     void Update()
     {
-        MoneyCount.text = Money.ToString();
+        MoneyCount.text = "$" + Money.ToString();
     }
 
     public void removeMoney(float Cost)
