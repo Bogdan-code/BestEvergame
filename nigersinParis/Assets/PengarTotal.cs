@@ -12,4 +12,10 @@ public class PengarTotal : MonoBehaviour
     {
         MoneyCount.text = Money.ToString();
     }
+
+    public void removeMoney(float Cost)
+    {
+        Cost -= Money;
+    }
+
 }
