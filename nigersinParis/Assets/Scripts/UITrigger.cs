@@ -3,11 +3,19 @@ using UnityEngine.UI;
 
 public class UITrigger : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D OpenUI)
+    public Collider2D Player;
+    public Collider2D Skrivbord;
+    public GameObject Kamera1;
+    
+    void GetLocator()
     {
-        if (OpenUI.collider.name == "Player")
+        if (Player.IsTouching(Skrivbord))
         {
-            
+            Kamera1.gameObject.SetActive(true);
+        }
+        else
+        {
+            Kamera1.gameObject.SetActive(false);
         }
     }
 }
