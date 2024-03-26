@@ -1436,7 +1436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This camera is good for beginners, therefor it's price...
+  m_Text: This camera is meant for beginners, therefor it's price...
 --- !u!222 &605592116
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4273616696912237974, guid: 47d44aa6ff48f9549aec34cd821b5ad0, type: 3}
+  m_Sprite: {fileID: 642732889618052938, guid: 8bfda21646c74b64086d81cfe0a93de5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
