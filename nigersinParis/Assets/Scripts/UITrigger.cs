@@ -6,8 +6,13 @@ public class UITrigger : MonoBehaviour
     public Collider2D Player;
     public Collider2D Skrivbord;
     public GameObject Kamera1;
-    
-    void GetLocator()
+
+    void Start()
+    {
+        Kamera1.gameObject.SetActive(false);
+    }
+
+    void Update()
     {
         if (Player.IsTouching(Skrivbord))
         {
