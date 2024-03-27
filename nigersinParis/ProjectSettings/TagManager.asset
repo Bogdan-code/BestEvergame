@@ -54,9 +54,14 @@ TagManager:
   - name: Husen
     uniqueID: 1231140737
     locked: 0
+<<<<<<< HEAD
+  - name: "Kamera synf\xE4lt"
+    uniqueID: 829423299
+=======
   - name: Kamera
     uniqueID: 2416284653
     locked: 0
   - name: Storedoor
     uniqueID: 3747020197
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
     locked: 0

@@ -709,8 +709,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1121497704}
   - component: {fileID: 1121497705}
+<<<<<<< HEAD
+=======
   - component: {fileID: 1121497706}
   - component: {fileID: 1121497707}
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
   m_Layer: 0
   m_Name: BulletTransform
   m_TagString: Untagged
@@ -785,6 +788,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
 --- !u!114 &1121497706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,6 +1016,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357782543}
   m_CullTransparentMesh: 1
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
 --- !u!1 &1822726742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,11 +1806,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       propertyPath: m_SortingLayer
+<<<<<<< HEAD
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 829423299
+=======
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       propertyPath: m_SortingLayerID
       value: -1878682643
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       propertyPath: m_LocalScale.x
@@ -1860,20 +1874,37 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2026604766}
+      addedObject: {fileID: 2026604768}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
+      addedObject: {fileID: 2026604769}
+=======
       addedObject: {fileID: 2026604765}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2026604767}
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
 --- !u!1 &2026604764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
   m_PrefabInstance: {fileID: 2026604763}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &2026604765
+--- !u!114 &2026604768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026604764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72265dac4f8726f44ba206ade8250494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 0
+--- !u!50 &2026604769
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -1882,7 +1913,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026604764}
   m_BodyType: 1
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -1900,6 +1931,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< HEAD
+=======
 --- !u!114 &2026604766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1927,6 +1960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Kamera1: {fileID: 1121497703}
   "Kamera1Synf\xE4lt": {fileID: 2026604764}
+>>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Shooting : MonoBehaviour
 {
     private Camera mainCam;
     private Vector3 mousePos;
     public GameObject bullet;
-    private GameObject currentBullet;
     public Transform bulletTransform;
+    private GameObject currentBullet;
+    private Transform aimTransform;
     public bool isFiring;
     public float firingDuration = 5f;
-    private Transform aimTransform;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // movement
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 rotation = mousePos - transform.position;
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
@@ -40,14 +42,15 @@ public class Shooting : MonoBehaviour
         }
         aimTransform.localScale = aimlocalScale;
 
+        // skjutning
         if (Input.GetMouseButtonDown(0))
         {
             StartFiring();
         }
 
-        if(Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
-            StopFiring(); 
+            StopFiring();
         }
     }
 
@@ -56,7 +59,7 @@ public class Shooting : MonoBehaviour
         if (!isFiring)
         {
             isFiring = true;
-            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            currentBullet = Instantiate(bullet, bulletTransform.position, Quaternion.identity);
         }
     }
 
@@ -68,5 +71,4 @@ public class Shooting : MonoBehaviour
             Destroy(currentBullet, firingDuration);
         }
     }
-
-  }
+}

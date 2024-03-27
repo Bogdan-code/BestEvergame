@@ -16,8 +16,9 @@ public class synfältscript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePos - transform.position;
+        Vector3 rotation = mousePos - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
-        float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ + 90);
     }
 
