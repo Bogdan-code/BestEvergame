@@ -4,7 +4,7 @@ public class OnEntryDisable : MonoBehaviour
 {
     public GameObject Kamera1;
     public GameObject Kamera1Synfält;
-    public bool OwnCam1 = false;
+    static public bool OwnCam1 = false;
 
     void Update ()
     {
