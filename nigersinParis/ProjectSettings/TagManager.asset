@@ -50,3 +50,6 @@ TagManager:
   - name: Husen
     uniqueID: 1231140737
     locked: 0
+  - name: "Kamera synf\xE4lt"
+    uniqueID: 829423299
+    locked: 0
