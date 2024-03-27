@@ -714,8 +714,11 @@ GameObject:
   - component: {fileID: 1121497706}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1121497707}
 >>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
+=======
+>>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
 >>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
@@ -1801,6 +1804,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
@@ -1808,6 +1812,9 @@ PrefabInstance:
       value: 829423299
 =======
       value: 5
+=======
+      value: 6
+>>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
       value: 6
 >>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
@@ -1883,10 +1890,13 @@ PrefabInstance:
       addedObject: {fileID: 2026604765}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2cecbd09f0a6ebf438f583dd4c05c315, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2026604767}
 >>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
+=======
+>>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
 >>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
@@ -1954,6 +1964,7 @@ MonoBehaviour:
   force: 5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &2026604767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1969,6 +1980,8 @@ MonoBehaviour:
   Kamera1: {fileID: 1121497703}
   "Kamera1Synf\xE4lt": {fileID: 2026604764}
 >>>>>>> d601916ffedf31059c9ccc2bbb0d6bf59440fec3
+=======
+>>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
 >>>>>>> parent of d601916 (Merge branch 'main' of https://github.com/Bogdan-code/BestEvergame)
 =======
