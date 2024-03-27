@@ -3,8 +3,10 @@ using UnityEngine.UI;
 
 public class BuyKamera1 : MonoBehaviour
 {
-    void Trigger()
+    public OnEntryDisable onEntryDisable;
+    public void Trigger()
     {
-        OnEntryDisable.OwnCam1 = true;
+        onEntryDisable.OwnCam1 = true;
     }
+
 }

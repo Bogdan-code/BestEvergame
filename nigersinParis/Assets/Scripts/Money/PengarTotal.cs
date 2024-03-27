@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PengarTotal : MonoBehaviour
 {
     
-    static float Money;
+    public float Money;
 
     public Text MoneyCount;
 
