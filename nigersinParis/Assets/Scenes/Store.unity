@@ -756,9 +756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbdac52dd07fad4da3f2488df715ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Kamera1: {fileID: 1648730213}
-  "Kamera1Synf\xE4lt": {fileID: 317762465}
-  OwnCam1: 0
 --- !u!1 &339671484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,9 +1028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91c074361fade7749bacddc257602566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2125981233}
-  Skrivbord: {fileID: 1919896310}
-  Kamera1: {fileID: 1024573569}
 --- !u!1 &521529816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,7 +2061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a2d5280d1f98584a8604398d1828710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1141639208}
 --- !u!95 &1141639208
 Animator:
   serializedVersion: 5
@@ -2664,9 +2657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbdac52dd07fad4da3f2488df715ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Kamera1: {fileID: 1648730213}
-  "Kamera1Synf\xE4lt": {fileID: 317762465}
-  OwnCam1: 0
 --- !u!1001 &1712331207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2995,6 +2985,7 @@ GameObject:
   - component: {fileID: 1919896308}
   - component: {fileID: 1919896309}
   - component: {fileID: 1919896310}
+  - component: {fileID: 1919896311}
   m_Layer: 0
   m_Name: UITrigger
   m_TagString: Skrivbord
@@ -3114,6 +3105,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1919896311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919896307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc084ee6f0f90049a4308144306615b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 2125981233}
+  Skrivbord: {fileID: 1919896310}
+  Kamera1: {fileID: 1024573569}
 --- !u!1 &1974568962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,7 +3267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d2aacb36bda0b4faa64054d512a239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onEntryDisable: {fileID: 1974568968}
 --- !u!114 &1974568968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3274,9 +3279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbdac52dd07fad4da3f2488df715ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Kamera1: {fileID: 1648730213}
-  "Kamera1Synf\xE4lt": {fileID: 317762465}
-  OwnCam1: 0
 --- !u!1 &1982270384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 9a45cefd55341674190136a80bb13ff4, type: 3}

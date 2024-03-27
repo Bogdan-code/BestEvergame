@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UITrigger : MonoBehaviour
+public class UITrigger1 : MonoBehaviour
 {
     public Collider2D Player;
     public Collider2D Skrivbord;

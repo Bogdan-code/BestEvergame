@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class OnEntryDisable : MonoBehaviour
 {
-    public GameObject Kamera1;
-    public GameObject Kamera1Synfält;
-    public bool OwnCam1 = false;
+    static public GameObject Kamera1;
+    static public GameObject Kamera1Synfält;
+    static public bool OwnCam1 = false;
 
-    void Update ()
+    static void Update ()
     {
         if (OwnCam1 == false)
         {
